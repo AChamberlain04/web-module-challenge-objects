@@ -91,6 +91,8 @@ Reyna's feedback is missing! Use what you know to do the following: (no function
   2. log the reviews array to the console to check your work
 */
 reviews[7].feedback = 'this place is chill with really cool people, great for getting work done on weekdays';
+console.log(reviews);
+
 
 
 
@@ -106,7 +108,7 @@ Use the addReview function below to do the following:
 */
 
 
-function addReview(/*Your Code Here */){
+function addReview(array){
   /*Your Code Here */
 }
 
@@ -123,7 +125,7 @@ Use the getReviewByIndex function below to do the following:
 */
 
 
-function getReviewByIndex(/*Your code here*/) {
+function getReviewByIndex(/*Your arrcode here*/) {
   /*Your code here*/
 }
 
