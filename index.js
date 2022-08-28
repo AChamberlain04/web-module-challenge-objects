@@ -108,10 +108,10 @@ Use the addReview function below to do the following:
 */
 
 
-function addReview(array){
+function addReview(array, name, rating, feedback){
   /*Your Code Here */
 }
-
+console.log(addReview)
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -125,9 +125,11 @@ Use the getReviewByIndex function below to do the following:
 */
 
 
-function getReviewByIndex(/*Your arrcode here*/) {
+function getReviewByIndex(array, number) {
+  return `${array[number].name} gave the restaurant a ${array[number].rating} star review, and their feedback was: ${array[number].feedback}`;
   /*Your code here*/
 }
+console.log(getReviewByIndex(reviews, 3));
 
   
 
@@ -144,9 +146,12 @@ Use the getLastReview function below to do the following:
 */
 
 
-function getLastReview(/*Your code here*/) {
+function getLastReview(array) {
+  return `${array[array.length -1].name} gave the restaurant a ${array[array.length -1].rating} star review, and their feedback was: ${array[array.length -1].feedback}`
   /*Your code here*/
 } 
+console.log(getLastReview);
+
 
 
 
